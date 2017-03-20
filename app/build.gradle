@@ -2,21 +2,37 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.jakewharton.butterknife'
 
 android {
+    //use legacy for android 6.0
+    useLibrary 'org.apache.http.legacy'
+    signingConfigs {
+        HolographicHuaDebug {
+            keyAlias 'HolographicHua'
+            keyPassword 'HolographicHua'
+            storeFile file('D:/Android/HolographicHua.jks')
+            storePassword 'HolographicHua'
+//            MD5: AA:FF:CD:F8:3A:38:38:CB:74:D5:7F:35:BC:F5:BE:EF
+//            SHA1: F6:53:3D:0E:41:A1:61:41:37:CF:0C:E9:DF:C8:BB:7A:AE:AC:A6:6D
+//            SHA256: 62:D9:B0:45:E6:DB:D6:18:D2:9E:73:7A:6B:86:F8:37:1E:D3:07:E4:07:1E:BF:73:12:B0:FF:6C:F8:62:17:A2
+        }
+    }
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "com.wjf.holographichua"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    lintOptions {
+        abortOnError false
     }
 }
 
@@ -25,14 +41,18 @@ dependencies {
     //    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
     //        exclude group: 'com.android.support', module: 'support-annotations'
     //    })
-    //    testCompile 'junit:junit:4.12'
+    testCompile 'junit:junit:4.12'
+    compile 'com.hyphenate:hyphenate-sdk:3.3.0'
     //retrofit和rxjava
     compile 'com.squareup.retrofit2:retrofit:2.2.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
-    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
-    //    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
-    //    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    compile 'io.reactivex:rxjava:1.1.9'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.1'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
+    compile 'com.trello:rxlifecycle:1.0'
+    compile 'com.trello:rxlifecycle-components:1.0'
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.1@aar'
     compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8@aar'
     //菜单栏
     compile 'com.alibaba:fastjson:1.2.8'
@@ -46,16 +66,18 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     //    compile 'com.github.clans:fab:1.6.4'//悬浮动画菜单
     //    compile 'cn.hugeterry.updatefun:updatefun:1.8.6'//fire.im自动更新
-    compile 'com.umeng.analytics:analytics:latest.integration'
+    //    compile 'com.umeng.analytics:analytics:latest.integration'
     //友盟统计
     compile('com.alibaba.android:vlayout:1.0.2@aar') {
         transitive = true
     }
-    compile 'com.android.support:support-annotations:25.3.0'
-    compile 'com.android.support:support-v4:25.3.0'
-    compile 'com.android.support:appcompat-v7:25.3.0'
-    compile 'com.android.support:support-vector-drawable:25.3.0'
-    compile 'com.android.support:design:25.3.0'
-    compile 'com.android.support:cardview-v7:25.3.0'
-    compile 'com.android.support:recyclerview-v7:25.3.0'
+    compile 'com.android.support:support-annotations:25.0.0'
+    compile 'com.android.support:support-v4:25.0.0'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:support-core-ui:25.0.0'
+    compile 'com.android.support:support-vector-drawable:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:cardview-v7:25.0.0'
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.android.support:multidex:1.0.1'
 }
