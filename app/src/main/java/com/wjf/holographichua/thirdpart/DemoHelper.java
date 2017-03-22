@@ -359,12 +359,12 @@ public class DemoHelper {
                 EaseUser user = getUserInfo(message.getFrom());
                 if(user != null){
                     if(EaseAtMessageHelper.get().isAtMeMsg(message)){
-                        return String.format(appContext.getString(R.string.at_your_in_group), user.getNick());
+                        return String.format(appContext.getString(R.string.at_in_your_group), user.getNick());
                     }
                     return user.getNick() + ": " + ticker;
                 }else{
                     if(EaseAtMessageHelper.get().isAtMeMsg(message)){
-                        return String.format(appContext.getString(R.string.at_your_in_group), message.getFrom());
+                        return String.format(appContext.getString(R.string.at_in_your_group), message.getFrom());
                     }
                     return message.getFrom() + ": " + ticker;
                 }
