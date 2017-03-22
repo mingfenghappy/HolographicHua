@@ -33,15 +33,7 @@ android {
         abortOnError false
     }
 
-    sourceSets {
-        main {
-            res.srcDirs =
-                    [
-                            'src/main/res/layout/huanxinlayout',
-                            'src/main/res'
-                    ]
-        }
-    }
+
 }
 
 dependencies {
@@ -52,6 +44,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 //    compile 'com.hyphenate:hyphenate-sdk:3.3.0'
     //retrofit和rxjava
+    compile 'com.github.Aspsine:IRecyclerView:0.0.5'
     compile 'com.squareup.retrofit2:retrofit:2.2.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
     compile 'io.reactivex:rxjava:1.1.9'
