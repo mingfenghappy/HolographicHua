@@ -30,7 +30,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.util.LruCache;
 import android.util.Log;
 
-import com.hyphenate.easeui.BuildConfig;
+import com.wjf.holographichua.BuildConfig;
 
 import java.io.File;
 import java.lang.ref.SoftReference;

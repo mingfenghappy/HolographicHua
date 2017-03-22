@@ -29,7 +29,7 @@ import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.widget.ImageView;
 
-import com.hyphenate.chatuidemo.BuildConfig;
+import com.wjf.holographichua.BuildConfig;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.Executor;
