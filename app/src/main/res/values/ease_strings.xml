@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="emojicon_test_name">Test</string>
+    <string name="at_your_in_group">%s @ you in group chat</string>
+</resources>
