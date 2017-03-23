@@ -72,12 +72,12 @@
         "source": "D:\\github\\HolographicHua\\easeui\\res\\layout\\ease_activity_baidumap.xml"
     },
     {
-        "merged": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_file.xml",
-        "source": "D:\\github\\HolographicHua\\easeui\\res\\layout\\ease_row_received_file.xml"
-    },
-    {
         "merged": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_voice_call.xml",
         "source": "D:\\github\\HolographicHua\\easeui\\res\\layout\\ease_row_sent_voice_call.xml"
+    },
+    {
+        "merged": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_file.xml",
+        "source": "D:\\github\\HolographicHua\\easeui\\res\\layout\\ease_row_received_file.xml"
     },
     {
         "merged": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_picture.xml",
