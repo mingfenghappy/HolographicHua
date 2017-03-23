@@ -188,12 +188,12 @@
         "source": "D:\\github\\HolographicHua\\easeui\\res\\drawable-hdpi\\ease_chatting_setmode_voice_btn_normal.png"
     },
     {
-        "merged": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_17.png",
-        "source": "D:\\github\\HolographicHua\\easeui\\res\\drawable-hdpi\\ee_17.png"
-    },
-    {
         "merged": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_14.png",
         "source": "D:\\github\\HolographicHua\\easeui\\res\\drawable-hdpi\\ee_14.png"
+    },
+    {
+        "merged": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_17.png",
+        "source": "D:\\github\\HolographicHua\\easeui\\res\\drawable-hdpi\\ee_17.png"
     },
     {
         "merged": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_record_animate_01.png",

@@ -30,7 +30,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -64,25 +64,21 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-//    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-//                exclude group: 'com.android.support', module: 'support-annotations'
-//                exclude group: 'com.google.code.findbugs'
-//            })
-//    testCompile 'junit:junit:4.12'
+    //    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    //                exclude group: 'com.android.support', module: 'support-annotations'
+    //                exclude group: 'com.google.code.findbugs'
+    //            })
+    //    testCompile 'junit:junit:4.12'
     //retrofit和rxjava
     compile 'com.github.Aspsine:IRecyclerView:0.0.5'
-
     compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
     compile 'io.reactivex:rxjava:1.1.9'
     compile 'io.reactivex:rxandroid:1.2.1'
-
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
-
     compile 'com.trello:rxlifecycle:1.0'
     compile 'com.trello:rxlifecycle-components:1.0'
-
     compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8@aar'
     //菜单栏
     compile 'com.alibaba:fastjson:1.2.8'
@@ -101,6 +97,5 @@ dependencies {
     compile('com.alibaba.android:vlayout:1.0.2@aar') {
         transitive = true
     }
-
     compile project(':easeui')
 }
