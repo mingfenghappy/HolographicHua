@@ -2,17 +2,17 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.jakewharton.butterknife'
 
 android {
-    signingConfigs {
-        HolographicHuaDebug {
-            keyAlias 'HolographicHua'
-            keyPassword 'HolographicHua'
-            storeFile file('D:/Android/HolographicHua.jks')
-            storePassword 'HolographicHua'
-//            MD5: AA:FF:CD:F8:3A:38:38:CB:74:D5:7F:35:BC:F5:BE:EF
-//            SHA1: F6:53:3D:0E:41:A1:61:41:37:CF:0C:E9:DF:C8:BB:7A:AE:AC:A6:6D
-//            SHA256: 62:D9:B0:45:E6:DB:D6:18:D2:9E:73:7A:6B:86:F8:37:1E:D3:07:E4:07:1E:BF:73:12:B0:FF:6C:F8:62:17:A2
-        }
-    }
+//    signingConfigs {
+//        HolographicHuaDebug {
+//            keyAlias 'HolographicHua'
+//            keyPassword 'HolographicHua'
+//            storeFile file('D:/Android/HolographicHua.jks')
+//            storePassword 'HolographicHua'
+////            MD5: AA:FF:CD:F8:3A:38:38:CB:74:D5:7F:35:BC:F5:BE:EF
+////            SHA1: F6:53:3D:0E:41:A1:61:41:37:CF:0C:E9:DF:C8:BB:7A:AE:AC:A6:6D
+////            SHA256: 62:D9:B0:45:E6:DB:D6:18:D2:9E:73:7A:6B:86:F8:37:1E:D3:07:E4:07:1E:BF:73:12:B0:FF:6C:F8:62:17:A2
+//        }
+//    }
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {

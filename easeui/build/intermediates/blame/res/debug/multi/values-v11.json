@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\github\\HolographicHua\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/D:\\github\\HolographicHua\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,73 @@
                     "endOffset": 219
                 },
                 "from": {
-                    "file": "D:\\github\\HolographicHua\\easeui\\res\\values-v11\\ease_styles.xml",
+                    "file": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/D:\\github\\HolographicHua\\easeui\\res\\values-v11\\ease_styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/D:\\github\\HolographicHua\\easeui\\res\\values-v11\\ease_styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 84,
+                    "endOffset": 479
+                },
+                "from": {
+                    "file": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/D:\\github\\HolographicHua\\easeui\\res\\values-v11\\ease_styles.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 91,
+                        "endOffset": 489
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/easeui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/easeui/res/values-v11/ease_styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -33,7 +99,7 @@
                     "endOffset": 638
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -54,7 +120,7 @@
                     "endOffset": 1063
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -75,7 +141,7 @@
                     "endOffset": 1491
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -96,7 +162,7 @@
                     "endOffset": 1917
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -117,7 +183,7 @@
                     "endOffset": 2344
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -138,7 +204,7 @@
                     "endOffset": 2769
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -158,7 +224,7 @@
                     "endOffset": 2858
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -177,7 +243,7 @@
                     "endOffset": 2959
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -196,7 +262,7 @@
                     "endOffset": 3062
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -216,7 +282,7 @@
                     "endOffset": 3470
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -237,7 +303,7 @@
                     "endOffset": 3890
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -258,7 +324,7 @@
                     "endOffset": 4312
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -279,7 +345,7 @@
                     "endOffset": 4419
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -300,7 +366,7 @@
                     "endOffset": 4548
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -320,7 +386,7 @@
                     "endOffset": 4619
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -339,7 +405,7 @@
                     "endOffset": 4702
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -359,7 +425,7 @@
                     "endOffset": 8641
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -380,7 +446,7 @@
                     "endOffset": 12723
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 115,
                         "startColumn": 4,
@@ -400,7 +466,7 @@
                     "endOffset": 12814
                 },
                 "from": {
-                    "file": "C:\\Users\\wjf\\.android\\build-cache\\14bb69269d225d9197632de7f80aea40faa389a5\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 169,
                         "startColumn": 4,
@@ -420,7 +486,7 @@
                     "endOffset": 12989
                 },
                 "from": {
-                    "file": "D:\\github\\HolographicHua\\easeui\\res\\values-v11\\ease_styles.xml",
+                    "file": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/easeui/res/values-v11/ease_styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -440,7 +506,7 @@
                     "endOffset": 13074
                 },
                 "from": {
-                    "file": "D:\\github\\HolographicHua\\easeui\\res\\values-v11\\ease_styles.xml",
+                    "file": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/easeui/res/values-v11/ease_styles.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
