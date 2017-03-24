@@ -123,7 +123,6 @@ public class MainActivity extends BaseActivity {
 
         switch (position){
             case 0:
-
                 transaction.hide(hyhCategoryFragment);
                 transaction.hide(hyhFoundFragment);
                 transaction.hide(hyhShoppingcartFragment);
@@ -132,7 +131,6 @@ public class MainActivity extends BaseActivity {
                 transaction.commitAllowingStateLoss();
                 break;
             case 1:
-
                 transaction.show(hyhCategoryFragment);
                 transaction.hide(hyhFoundFragment);
                 transaction.hide(hyhShoppingcartFragment);
@@ -141,7 +139,6 @@ public class MainActivity extends BaseActivity {
                 transaction.commitAllowingStateLoss();
                 break;
             case 2:
-
                 transaction.hide(hyhCategoryFragment);
                 transaction.show(hyhFoundFragment);
                 transaction.hide(hyhShoppingcartFragment);
@@ -150,7 +147,6 @@ public class MainActivity extends BaseActivity {
                 transaction.commitAllowingStateLoss();
                 break;
             case 3:
-
                 transaction.hide(hyhCategoryFragment);
                 transaction.hide(hyhFoundFragment);
                 transaction.show(hyhShoppingcartFragment);
