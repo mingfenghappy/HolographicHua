@@ -10,6 +10,12 @@ import com.flyco.tablayout.listener.OnTabSelectListener;
 import com.wjf.holographichua.R;
 import com.wjf.holographichua.base.BaseActivity;
 import com.wjf.holographichua.baseapp.AppConstant;
+import com.wjf.holographichua.bean.TabEntity;
+import com.wjf.holographichua.module.main.fragment.HyhCategoryFragment;
+import com.wjf.holographichua.module.main.fragment.HyhFoundFragment;
+import com.wjf.holographichua.module.main.fragment.HyhMainFragment;
+import com.wjf.holographichua.module.main.fragment.HyhPersonCenterFragment;
+import com.wjf.holographichua.module.main.fragment.HyhShoppingcartFragment;
 import com.wjf.holographichua.utils.LogUtils;
 
 import java.util.ArrayList;
@@ -18,7 +24,7 @@ import butterknife.BindView;
 
 public class MainActivity extends BaseActivity {
 
-    @BindView(R.id.main_fl)
+    @BindView(R.id.main_fl_body)
     FrameLayout mMainFl;
     @BindView(R.id.main_tab_layout)
     CommonTabLayout mMainTabLayout;
@@ -66,17 +72,17 @@ public class MainActivity extends BaseActivity {
             hyhShoppingcartFragment = new HyhShoppingcartFragment();
             hyhPersonCenterFragment = new HyhPersonCenterFragment();
 
-            transaction.add(R.id.fl_body, hyhMainFragment, "hyhMainFragment");
-            transaction.add(R.id.fl_body, hyhCategoryFragment, "hyhCategoryFragment");
-            transaction.add(R.id.fl_body, hyhFoundFragment, "hyhFoundFragment");
-            transaction.add(R.id.fl_body, hyhShoppingcartFragment, "hyhShoppingcartFragment");
-            transaction.add(R.id.fl_body, hyhPersonCenterFragment, "hyhPersonCenterFragment");
+            transaction.add(R.id.main_fl_body, hyhMainFragment, "hyhMainFragment");
+            transaction.add(R.id.main_fl_body, hyhCategoryFragment, "hyhCategoryFragment");
+            transaction.add(R.id.main_fl_body, hyhFoundFragment, "hyhFoundFragment");
+            transaction.add(R.id.main_fl_body, hyhShoppingcartFragment, "hyhShoppingcartFragment");
+            transaction.add(R.id.main_fl_body, hyhPersonCenterFragment, "hyhPersonCenterFragment");
         }
         transaction.commit();
         //跳转当前fragment
-        SwitchTo(currentTabPosition);
+        switchTo(currentTabPosition);
         //跳转当前tab
-        tabLayout.setCurrentTab(currentTabPosition);
+        mMainTabLayout.setCurrentTab(currentTabPosition);
         
         
     }
