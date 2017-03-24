@@ -8,6 +8,7 @@ import android.support.multidex.MultiDex;
 
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMOptions;
+import com.squareup.leakcanary.LeakCanary;
 
 import java.util.Iterator;
 import java.util.List;
@@ -28,7 +29,14 @@ public class BaseApplication extends Application {
         super.onCreate();
         baseApplication = this;
         mContext = this;
-
+        //检测内容泄漏
+        if (LeakCanary.isInAnalyzerProcess(this)) {
+            // This process is dedicated to LeakCanary for heap analysis.
+            // You should not init your app in this process.
+            return;
+        }
+        LeakCanary.install(this);
+        //初始化环信
         initEasemob();
     }
     //上下文

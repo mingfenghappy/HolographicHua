@@ -47,6 +47,11 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //retrofit和rxjava
 
+
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+
     compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
     compile 'io.reactivex:rxjava:1.1.9'
     compile 'io.reactivex:rxandroid:1.2.1'

@@ -1,5 +1,7 @@
 package com.wjf.holographichua.module.main.fragment;
 
+import android.widget.TextView;
+
 import com.wjf.holographichua.R;
 import com.wjf.holographichua.base.BaseFragment;
 
@@ -10,11 +12,12 @@ import com.wjf.holographichua.base.BaseFragment;
 public class HyhShoppingcartFragment extends BaseFragment {
     @Override
     protected int getLayoutResource() {
-        return R.layout.activity_main;
+        return R.layout.fragment_shopping_cart;
     }
 
     @Override
     public void initPresenter() {
+
 
     }
 
