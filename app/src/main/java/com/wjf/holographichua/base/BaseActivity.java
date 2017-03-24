@@ -58,7 +58,7 @@ import butterknife.Unbinder;
 //    public void initView() {
 //    }
 //}
-public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel> extends RxAppCompatActivity implements BaseView{
+public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel> extends RxAppCompatActivity {
     public T mPresenter;
     public E mModel;
     public Context mContext;
@@ -107,7 +107,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
     public abstract void initView();
 
 
-    @Override
+
     public <T> LifecycleTransformer<T> bindToLife() {
         return this.<T>bindToLifecycle();
     }

@@ -57,7 +57,7 @@ import butterknife.Unbinder;
 //    public void initView() {
 //    }
 //}
-public abstract  class BaseFragment<T extends BasePresenter, E extends BaseModel> extends RxFragment implements BaseView {
+public abstract  class BaseFragment<T extends BasePresenter, E extends BaseModel> extends RxFragment  {
     protected View rootView;
     public T mPresenter;
     public E mModel;
@@ -120,7 +120,6 @@ public abstract  class BaseFragment<T extends BasePresenter, E extends BaseModel
 
 
 
-    @Override
     public <T> LifecycleTransformer<T> bindToLife() {
         return this.<T>bindToLifecycle();
     }
