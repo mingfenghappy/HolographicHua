@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/easeui/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/easeui/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/easeui/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/MacBookPro/Downloads/GihubSamples/HolographicHua/easeui/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/MacBookPro/.android/build-cache/c7643290dc5507a41e6b37235183b18ad9b4f88a/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
